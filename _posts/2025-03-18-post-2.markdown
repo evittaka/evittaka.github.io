@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Post 2"
+date:   2025-03-18 10:18:03 +0100
+categories: jekyll update
+---
+
+Skanios kaveles, geros dieneles! :)
