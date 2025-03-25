@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignemnet 2"
+title:  "Assignenmet 2"
 date:   2025-03-25 10:18:03 +0100
 categories: jekyll update
 ---
