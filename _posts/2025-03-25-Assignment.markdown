@@ -9,17 +9,19 @@ categories: jekyll update
 
 The San Francisco crime data contains records of reported crimes in San Francisco, categorized by various attributes such as crime type, date and time, police district, and geographic coordinates (latitude and longitude). The dataset typically includes information on crimes like assault, theft, vandalism, robbery, and more. Data is collected starting from 2003 until the end of 2024. This dataset is valuable for understanding crime patterns, identifying high-crime areas, and enhancing public safety efforts. In this analysis, we take a closer look at vehicle theft data.  
 
-## Arrest Frequency by Time of Day  
+## Assault Trends Over Time
 
-In the first plot, we analyze the frequency of vehicle theft arrests by the time of day. Interestingly, the data reveals two distinct peaks: one between 17:00 and 23:00 and another around midday.  
+This visualization examines the annual trend of reported assaults in San Francisco from 2003 to 2024. At first glance, the red line chart reveals a gradual long-term decline in assaults across the two-decade span, punctuated by sharp changes in the late 2010s and early 2020s. A dashed trendline reinforces this steady downward pattern, while a shaded area highlights the COVID-19 pandemic period.
 
-The evening peak, from 5 p.m. to 11 p.m., coincides with the time when people are returning home from work or other daily activities. This suggests that thieves might exploit the increased movement and busy streets as a form of cover, attempting to blend in with the crowd to avoid detection. Contrary to what one might expect, arrests are less frequent during the late-night hours when streets are quieter and more deserted.  
+Between 2003 and 2017, assault levels remained relatively stable, fluctuating just above 10,000 incidents per year. However, a sharp decline occurred in 2020, coinciding with the pandemic’s peak. With social distancing, lockdowns, and reduced public activity, the number of reported assaults dropped dramatically, reaching the lowest point in the dataset. This shift suggests a strong correlation between social interaction levels and violent crime.
 
-Additionally, we observe a smaller peak around lunchtime, a period characterized by high street activity and increased pedestrian and vehicular movement. This further supports the hypothesis that vehicle thieves tend to operate during times of greater public presence, potentially leveraging the commotion and crowds to conceal their actions.  
+Interestingly, the post-pandemic years (2021–2024) show only a modest rebound. While assault rates rose slightly after 2020, they remained lower than pre-pandemic levels, indicating a potential long-term shift in urban dynamics, policing, or public behavior.
 
-This pattern offers valuable insight into the behavior of vehicle thieves and the circumstances under which arrests are more likely to occur, which could inform targeted crime prevention efforts during these high-risk periods.  
+By visualizing the data in this way, we can clearly observe how large-scale societal disruptions like COVID-19 can dramatically influence patterns of violent crime—insights that could be valuable for both urban planning and public safety strategy moving forward.
 
-![Vehicle Theft Arrest Frequency by Time of Day](/assets/images/plot1.png)  
+<div style="width: 800px; margin: 0 auto;">
+    <iframe src="/assets/interactive_assaults.html" width="100%" height="500px" frameborder="0"></iframe>
+</div>  
 
 ## Heatmap of Arrest Locations Over Time  
 
@@ -44,5 +46,5 @@ In the Central district, there is a very distinct peak at 6 p.m., which makes se
 Meanwhile, the Southern district has a more evenly distributed crime rate compared to the other districts, with less pronounced peaks, possibly reflecting different activity patterns and levels of police presence.  
 
 <div style="width: 800px; margin: 0 auto;">
-    <iframe src="/assets/plot3.html" width="100%" height="500px" frameborder="0"></iframe>
+    <iframe src="/assets/normalizes_assaults_vs_others_with_muted.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
