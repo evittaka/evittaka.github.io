@@ -56,7 +56,9 @@ This analysis highlights key patterns in assault trends, arrest locations, and c
 
 Additionally, examining the relationships between assault and other crimes suggests that certain offenses tend to occur together, which can inform targeted policy measures. These findings offer valuable insights for law enforcement, policymakers, and urban planners in designing strategies to improve public safety and crime prevention in San Francisco.
 
+## Contributions
 
+All members contribute equally to all parts.
 
 
 
