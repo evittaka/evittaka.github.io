@@ -7,17 +7,17 @@ categories: jekyll update
 
 # San Francisco Crime Data Analysis: Assault
 
-The San Francisco crime data contains records of reported crimes in San Francisco, categorized by various attributes such as crime type, date and time, police district, and geographic coordinates (latitude and longitude). The dataset typically includes information on crimes like assault, theft, vandalism, robbery, and more. Data is collected starting from 2003 until the end of 2024. This dataset is valuable for understanding crime patterns, identifying high-crime areas, and enhancing public safety efforts. In this analysis, we take a closer look at assault data.  
+The San Francisco crime dataset contains records of reported crimes, categorized by attributes such as crime type, date and time, police district, and geographic coordinates. It includes offenses like assault, theft, vandalism, and robbery, spanning from 2003 to 2024. This dataset is valuable for understanding crime trends, identifying high-crime areas, and informing public safety measures. In this analysis, we focus on assault data. 
 
 ## Assault Trends Over Time
 
-This visualization examines the annual trend of reported assaults in San Francisco from 2003 to 2024. At first glance, the red line chart reveals a gradual long-term decline in assaults across the two-decade span, punctuated by sharp changes in the late 2010s and early 2020s. A dashed trendline reinforces this steady downward pattern, while a shaded area highlights the COVID-19 pandemic period.
+This visualization examines the annual trend of reported assaults in San Francisco from 2003 to 2024. At first glance, the red line chart reveals a gradual decline in assaults over the two decades, with notable shifts in the late 2010s and early 2020s. A dashed trendline highlights this downward trajectory, while a shaded area marks the COVID-19 pandemic period.
 
-Between 2003 and 2017, assault levels remained relatively stable, fluctuating just above 10,000 incidents per year. However, a sharp decline occurred in 2020, coinciding with the pandemic’s peak. With social distancing, lockdowns, and reduced public activity, the number of reported assaults dropped dramatically, reaching the lowest point in the dataset. This shift suggests a strong correlation between social interaction levels and violent crime.
+Between 2003 and 2017, assault levels remained relatively stable, fluctuating around 10,000 incidents per year. However, a sharp decline occurred in 2020, coinciding with the peak of the pandemic. Social distancing, lockdowns, and reduced public activity contributed to a dramatic drop, reaching the lowest point in the dataset. This trend suggests a strong correlation between crime rates and social interaction levels.
 
-Interestingly, the post-pandemic years (2021–2024) show only a modest rebound. While assault rates rose slightly after 2020, they remained lower than pre-pandemic levels, indicating a potential long-term shift in urban dynamics, policing, or public behavior.
+Interestingly, post-pandemic years (2021–2024) show only a modest rebound. While assault rates increased slightly after 2020, they remained below pre-pandemic levels. This suggests a potential long-term shift influenced by changes in urban dynamics, policing, or public behavior.
 
-By visualizing the data in this way, we can clearly observe how large-scale societal disruptions like COVID-19 can dramatically influence patterns of violent crime—insights that could be valuable for both urban planning and public safety strategy moving forward.
+By visualizing the data, we can see how large-scale societal disruptions—such as the COVID-19 pandemic—can significantly impact violent crime patterns. These insights could be useful for urban planning and public safety strategies moving forward.
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/interactive_assaults.html" width="100%" height="500px" frameborder="0"></iframe>
@@ -25,26 +25,35 @@ By visualizing the data in this way, we can clearly observe how large-scale soci
 
 ## Heatmap of Arrest Locations Over Time  
 
-Additionally, we examine a heatmap of vehicle theft arrests in San Francisco, year by year. One noticeable trend is the overall decrease in the crime rate over time, suggesting that crime prevention programs and effective police efforts have contributed to reducing vehicle thefts in the city.  
+The next visualization presents a heatmap of assault-related arrests across San Francisco, showing trends over time. The overall decrease in crime supports the insights from the previous plot.
 
-The heatmap also highlights that most crimes occur in downtown areas. This is expected, as downtown is typically more crowded and experiences higher levels of pedestrian and vehicular movement, providing potential cover for criminal activity. Beyond the downtown core, we observe elevated crime rates in Bayview and Mission Districts, areas known for higher population density and activity.  
+The heatmap highlights that most crimes occur in downtown areas, which is expected due to higher population density and increased law enforcement presence. Outside the downtown core, we observe elevated crime rates in Bayview and Mission Districts, areas known for high activity and dense populations.
 
-In contrast, crime rates are noticeably lower in more suburban and rural areas, which aligns with the perception that these areas are generally safer due to lower population density and reduced foot traffic.  
+In contrast, crime rates are significantly lower in suburban and residential areas, reinforcing the perception that these regions are generally safer due to lower foot traffic and population density.
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/plot2.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
-## Hour-by-Hour Probabilities by Police District  
+## Assault Correlation with Other Crimes
 
-The third plot complements the insights from the previous plots by showing the hour-by-hour probabilities of vehicle theft arrests across different police districts. A key observation is that most districts follow a somewhat similar distribution, with peaks during the evening or midday.  
+The third visualization explores how assault correlates with other types of crime in San Francisco. Each dot represents normalized crime rates for a given time of the week, allowing direct comparisons across different crime types. Assault is fixed on the x-axis, while selected crimes appear on the y-axis.
 
-For instance, the Ingleside district exhibits a more pronounced peak during the evening hours. The Tenderloin district, on the other hand, shows a higher peak around lunchtime, likely reflecting increased movement and activity during this period.  
+A strong positive correlation is evident between assault and crimes such as robbery, burglary, and vehicle theft. These crimes tend to increase and decrease alongside assault, as shown by the red trendlines indicating a linear relationship.
 
-In the Central district, there is a very distinct peak at 6 p.m., which makes sense given that this area contains many office buildings and experiences heavy pedestrian and vehicular traffic at the end of the workday. A similar pattern can be seen in the Richmond district.  
+For crimes like robbery and burglary, the data points form tight, upward-sloping clusters, indicating a strong temporal relationship—when assault rates rise, these crimes rise as well. In contrast, crimes such as vandalism and prostitution display more scattered distributions with flatter trendlines, suggesting little or no alignment with assault trends.
 
-Meanwhile, the Southern district has a more evenly distributed crime rate compared to the other districts, with less pronounced peaks, possibly reflecting different activity patterns and levels of police presence.  
+Understanding these relationships provides deeper insights into crime dynamics. If assault and burglary peak together in specific areas or time periods, targeted interventions can address both issues simultaneously, leading to more effective crime prevention and public safety strategies.
 
 <div style="width: 800px; margin: 0 auto;">
-    <iframe src="/assets/normalized_assault_vs_others_with_muted.html" width="100%" height="500px" frameborder="0"></iframe>
-</div>  
+    <iframe src="/assets/normalized_assault_vs_others_with_muted.html" width="100%" height="620px" frameborder="0"></iframe>
+</div>
+
+## Conclussion
+
+This analysis highlights key patterns in assault trends, arrest locations, and correlations with other crimes in San Francisco. The data reveals a long-term decline in assaults, with a significant increase during the COVID-19 pandemic and only a partial recovery in recent years. Geospatial analysis confirms that crime is concentrated in high-density areas such as downtown and specific districts like Bayview and Mission.
+
+Additionally, examining the relationships between assault and other crimes suggests that certain offenses tend to occur together, which can inform targeted policy measures. These findings offer valuable insights for law enforcement, policymakers, and urban planners in designing strategies to improve public safety and crime prevention in San Francisco.
+
+
+
