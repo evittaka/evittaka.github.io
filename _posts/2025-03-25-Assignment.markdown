@@ -46,5 +46,5 @@ In the Central district, there is a very distinct peak at 6 p.m., which makes se
 Meanwhile, the Southern district has a more evenly distributed crime rate compared to the other districts, with less pronounced peaks, possibly reflecting different activity patterns and levels of police presence.  
 
 <div style="width: 800px; margin: 0 auto;">
-    <iframe src="/assets/normalizes_assaults_vs_others_with_muted.html" width="100%" height="500px" frameborder="0"></iframe>
+    <iframe src="/assets/normalized_assaults_vs_others_with_muted.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
