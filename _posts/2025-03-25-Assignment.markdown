@@ -5,9 +5,9 @@ date:   2025-03-25 10:18:03 +0100
 categories: jekyll update
 ---
 
-# San Francisco Crime Data Analysis: Vehicle Theft  
+# San Francisco Crime Data Analysis: Assault
 
-The San Francisco crime data contains records of reported crimes in San Francisco, categorized by various attributes such as crime type, date and time, police district, and geographic coordinates (latitude and longitude). The dataset typically includes information on crimes like assault, theft, vandalism, robbery, and more. Data is collected starting from 2003 until the end of 2024. This dataset is valuable for understanding crime patterns, identifying high-crime areas, and enhancing public safety efforts. In this analysis, we take a closer look at vehicle theft data.  
+The San Francisco crime data contains records of reported crimes in San Francisco, categorized by various attributes such as crime type, date and time, police district, and geographic coordinates (latitude and longitude). The dataset typically includes information on crimes like assault, theft, vandalism, robbery, and more. Data is collected starting from 2003 until the end of 2024. This dataset is valuable for understanding crime patterns, identifying high-crime areas, and enhancing public safety efforts. In this analysis, we take a closer look at assault data.  
 
 ## Assault Trends Over Time
 
@@ -46,5 +46,5 @@ In the Central district, there is a very distinct peak at 6 p.m., which makes se
 Meanwhile, the Southern district has a more evenly distributed crime rate compared to the other districts, with less pronounced peaks, possibly reflecting different activity patterns and levels of police presence.  
 
 <div style="width: 800px; margin: 0 auto;">
-    <iframe src="/assets/normalized_assaults_vs_others_with_muted.html" width="100%" height="500px" frameborder="0"></iframe>
+    <iframe src="/assets/normalized_assault_vs_others_with_muted.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
