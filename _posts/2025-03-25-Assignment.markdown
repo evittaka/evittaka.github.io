@@ -49,7 +49,6 @@ Understanding these relationships provides deeper insights into crime dynamics. 
     <iframe src="/assets/normalized_assault_vs_others_with_muted.html" width="100%" height="620px" frameborder="0"></iframe>
 </div>
 
-# TEST
 
 ## Conclussion
 
