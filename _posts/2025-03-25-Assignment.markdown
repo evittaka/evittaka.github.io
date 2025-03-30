@@ -49,6 +49,8 @@ Understanding these relationships provides deeper insights into crime dynamics. 
     <iframe src="/assets/normalized_assault_vs_others_with_muted.html" width="100%" height="620px" frameborder="0"></iframe>
 </div>
 
+# TEST
+
 ## Conclussion
 
 This analysis highlights key patterns in assault trends, arrest locations, and correlations with other crimes in San Francisco. The data reveals a long-term decline in assaults, with a significant increase during the COVID-19 pandemic and only a partial recovery in recent years. Geospatial analysis confirms that crime is concentrated in high-density areas such as downtown and specific districts like Bayview and Mission.
