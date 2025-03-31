@@ -46,7 +46,7 @@ For crimes like robbery and larceny/theft, the data points form tight, upward-sl
 Understanding these relationships provides deeper insights into crime dynamics. If assault and robbery peak together in specific areas or time periods, targeted interventions can address both issues simultaneously, leading to more effective crime prevention and public safety strategies.
 
 <div style="width: 800px; margin: 0 auto;">
-    <iframe src="/assets/crime_scatter.html" width="100%" height="620px" frameborder="0"></iframe>
+    <iframe src="/assets/crime_scatter.html" width="100%" height="650px" frameborder="0"></iframe>
 </div>
 
 
