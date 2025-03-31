@@ -37,16 +37,16 @@ In contrast, crime rates are significantly lower in suburban and residential are
 
 ## Assault Correlation with Other Crimes
 
-The third visualization explores how assault correlates with other types of crime in San Francisco. Each dot represents normalized crime rates for a given time of the week, allowing direct comparisons across different crime types. Assault is fixed on the x-axis, while selected crimes appear on the y-axis.
+The third visualization explores how assault correlates with other types of crime in San Francisco. Each dot represents crime rates for a given time of the week, allowing comparisons across different crime types. Assault is fixed on the x-axis, while selected crime appear on the y-axis.
 
-A strong positive correlation is evident between assault and crimes such as robbery, burglary, and vehicle theft. These crimes tend to increase and decrease alongside assault, as shown by the red trendlines indicating a linear relationship.
+A strong positive correlation is evident between assault and crimes such as weapon laws, robbery, larceny/theft and vandalism. These crimes tend to increase and decrease alongside assault.
 
-For crimes like robbery and burglary, the data points form tight, upward-sloping clusters, indicating a strong temporal relationship—when assault rates rise, these crimes rise as well. In contrast, crimes such as vandalism and prostitution display more scattered distributions with flatter trendlines, suggesting little or no alignment with assault trends.
+For crimes like robbery and larceny/theft, the data points form tight, upward-sloping clusters, indicating a strong temporal relationship—when assault rates rise, these crimes rise as well. In contrast, crimes such as drug/narcotic and prostitution display more scattered distributions with flatter trendlines, suggesting little or no alignment with assault trends.
 
-Understanding these relationships provides deeper insights into crime dynamics. If assault and burglary peak together in specific areas or time periods, targeted interventions can address both issues simultaneously, leading to more effective crime prevention and public safety strategies.
+Understanding these relationships provides deeper insights into crime dynamics. If assault and robbery peak together in specific areas or time periods, targeted interventions can address both issues simultaneously, leading to more effective crime prevention and public safety strategies.
 
 <div style="width: 800px; margin: 0 auto;">
-    <iframe src="/assets/normalized_assault_vs_others_with_muted.html" width="100%" height="620px" frameborder="0"></iframe>
+    <iframe src="/assets/crime_scatter.html" width="100%" height="620px" frameborder="0"></iframe>
 </div>
 
 
