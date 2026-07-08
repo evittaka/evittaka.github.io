@@ -96,10 +96,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
 
 category_archive:
   type: liquid
-  path: /Resume/
+  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
