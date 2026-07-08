@@ -99,7 +99,7 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /categories/
+  path: /Resume/
 tag_archive:
   type: liquid
   path: /tags/
