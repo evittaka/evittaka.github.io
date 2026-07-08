@@ -57,34 +57,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Evita Karietaite"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Data Scientist (Applied Machine Learning \& Financial Analytics) with experience in building predictive models, statistical analysis, and Python-based data automation across financial risk and industrial domains. MSc in Mathematical Modelling and Computation (Machine Learning \& Data Science, DTU), with industry experience from Novo Nordisk and Danske Bank. Focused on time-series forecasting, production-oriented machine learning, and scalable data-driven solutions."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/evittaka"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-Linkedin"
+      url: "https://www.linkedin.com/in/evita-karietait%C4%97-57a723166"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/evittaka"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-Linkedin"
+      url: "https://www.linkedin.com/in/evita-karietait%C4%97-57a723166"
 
 defaults:
   # _posts
