@@ -6,12 +6,8 @@ layout: single
 
 ## Projects
 
-Number of projects: {{ site.projects.size }}
-
 {% for project in site.projects %}
 
 ### [{{ project.title }}]({{ project.url | relative_url }})
-
-{{ project.excerpt }}
 
 {% endfor %}
