@@ -6,4 +6,10 @@ layout: single
 
 ## Projects
 
-Coming soon...
+{% for project in site.projects %}
+
+### [{{ project.title }}]({{ project.url | relative_url }})
+
+{{ project.excerpt }}
+
+{% endfor %}

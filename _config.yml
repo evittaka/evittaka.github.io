@@ -105,17 +105,5 @@ tag_archive:
   type: liquid
   path: /tags/
 
-collections:
-  projects:
-    output: true
-
-main:
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Cat/Dog Classifier"
-    url: /projects/cat-dog-classifier/
 
 
