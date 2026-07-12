@@ -1,7 +1,7 @@
 ---
 title: "Cat vs Dog Image Classifier"
 layout: single
-permalink: /projects/cat-dog-classifier/
+permalink: /projects/cat-dog-class/
 ---
 
 ## MobileNetV3 Image Classification
