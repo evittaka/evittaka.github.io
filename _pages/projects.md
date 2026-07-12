@@ -15,5 +15,3 @@ Number of projects: {{ site.projects.size }}
 {{ project.excerpt }}
 
 {% endfor %}
-
-- [Cat vs Dog Image Classifier](/projects/cat-dog-classifier/)
