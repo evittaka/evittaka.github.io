@@ -106,4 +106,6 @@ tag_archive:
   path: /tags/
 
 
-
+collections:
+  projects:
+    output: true
